@@ -1,0 +1,11 @@
+name: PlayerLifestyleModifier
+description: Modify the health and hunger of players.
+version: "1.0.0"
+api: ["1.0.0"]
+author: William Qi
+main: io.github.willqi.playerlifestylemodifier.PlayerLifestylePlugin
+
+permissions:
+  io.github.willqi.playerlifestylemodifier.command.modifyplayer:
+    description: "Gives users the ability to run /modify-player"
+    default: op
